@@ -1,0 +1,11 @@
+2025-09-14 09:05:24,253 - DEBUG - [server.py:154] - Initializing server 'multi-tool-calculator'
+2025-09-14 09:05:24,253 - DEBUG - [server.py:386] - Registering handler for ListToolsRequest
+2025-09-14 09:05:24,253 - DEBUG - [server.py:447] - Registering handler for CallToolRequest
+2025-09-14 09:05:24,253 - ERROR - [cli.py:153] - The server object D:\Krishnayak\Live-Class\Agentic 2.0\ADK\Module 11 - MCP in ADK\local_mcp\server.py:mcp is of type <class 'module'> (expecting <class 'mcp.server.fastmcp.server.FastMCP'>).
+2025-09-14 09:05:24,253 - ERROR - [cli.py:167] - Ignoring object 'D:\Krishnayak\Live-Class\Agentic 2.0\ADK\Module 11 - MCP in ADK\local_mcp\server.py:mcp' as it's not a valid server object
+2025-09-14 09:05:24,263 - ERROR - [cli.py:153] - The server object D:\Krishnayak\Live-Class\Agentic 2.0\ADK\Module 11 - MCP in ADK\local_mcp\server.py:app is of type <class 'mcp.server.lowlevel.server.Server'> (expecting <class 'mcp.server.fastmcp.server.FastMCP'>).
+2025-09-14 09:05:24,263 - WARNING - [cli.py:155] - Note that only FastMCP server is supported. Low level Server class is not yet supported.
+2025-09-14 09:05:24,263 - ERROR - [cli.py:167] - Ignoring object 'D:\Krishnayak\Live-Class\Agentic 2.0\ADK\Module 11 - MCP in ADK\local_mcp\server.py:app' as it's not a valid server object
+2025-09-14 09:05:24,263 - ERROR - [cli.py:171] - No server object found in D:\Krishnayak\Live-Class\Agentic 2.0\ADK\Module 11 - MCP in ADK\local_mcp\server.py. Please either:
+1. Use a standard variable name (mcp, server, or app)
+2. Specify the object name with file:object syntax3. If the server creates the FastMCP object within main()    or another function, refactor the FastMCP object to be a    global variable named mcp, server, or app.
